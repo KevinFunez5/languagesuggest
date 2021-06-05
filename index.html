@@ -9,29 +9,28 @@
 </head>
 <body>
   <h2>Which Language Should You Learn First?</h2>
-  <form id="languagepicker">
-    <label for="age">Your age:</label>
+  <h2>Switching between langus is common in the tech industry, but it is a good idea to know which language you should try learning first!</h2>
+  <h2>Fill out this application to see what best suits you!</h2>
+  <form id="language-picker">
+    <label for="age">Are you younger than 50? (Yes/No):</label>
     <input id="age" type="text">
     
-    <label for="sport">Do you play sports?:</label>
+    <label for="sport">Do you play sports?(Yes/No):</label>
     <input id="sport" type="text">
     
-    <label for="math">Do you like math?:</label>
+    <label for="math">Do you like math?(Y/N):</label>
     <input id="math" type="text">
 
-    <label for="code">Have you coded before?:</label>
+    <label for="code">Have you coded before?(Y/N):</label>
     <input id="code" type="text">
 
-    <label for="age">Your age:</label>
-    <input id="age" type="text">
+    <label for="laptop">Do you have a laptop?(Y/N):</label>
+    <input id="laptop" type="text">
   
     <button type="submit" class="btn">Submit!</button>
   </form>
-    <h2>Switching between languages is common in the tech industry, but it is a good idea to know which language you should try learning first!</h2>
-    <h2>Fill out this application to see what best suits you!</h2>
-    <p>What is your age?</p>
-    <p>Where are you from? Country Only.</p>
-    <p>Is it raining outside?</p>
-    <p>Do you play sports?</p>
+  <div id="suggestion">
+    <p>The language we suggest is <span id="answer"></span></p>
+  </div>
 </body>
 </html>
