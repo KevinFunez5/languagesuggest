@@ -8,9 +8,11 @@
   <title>Language Application</title>
 </head>
 <body>
-  <h2>Which Language Should You Learn First?</h2>
-  <h2>Switching between langus is common in the tech industry, but it is a good idea to know which language you should try learning first!</h2>
-  <h2>Fill out this application to see what best suits you!</h2>
+  <div class="jumbotron">
+    <h1>Which Language Should You Learn First?</h1>
+    <h2>Switching between languages is common in the tech industry, but it is a good idea to know which language you should try learning first!</h2>
+    <h2>Fill out this application to see what best suits you!</h2>
+  </div>
   <form id="language-picker">
     <label for="age">Are you younger than 50? (Yes/No):</label>
     <input id="age" type="text">
@@ -18,16 +20,16 @@
     <label for="sport">Do you play sports?(Yes/No):</label>
     <input id="sport" type="text">
     
-    <label for="math">Do you like math?(Y/N):</label>
+    <label for="math">Do you like math?(Yes/No):</label>
     <input id="math" type="text">
 
-    <label for="code">Have you coded before?(Y/N):</label>
+    <label for="code">Have you coded before?(Yes/No):</label>
     <input id="code" type="text">
 
-    <label for="laptop">Do you have a laptop?(Y/N):</label>
+    <label for="laptop">Do you have a laptop?(Yes/No):</label>
     <input id="laptop" type="text">
   
-    <button type="submit" class="btn">Submit!</button>
+    <button type="submit" class="btn btn-outline-dark">Submit!</button>
   </form>
   <div id="suggestion">
     <p>The language we suggest is <span id="answer"></span></p>

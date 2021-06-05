@@ -1,3 +1,17 @@
 #suggestion {
   display: none;
+  text-align: center;
+  font-weight: bold;
+  font-size: x-large;
+}
+body {
+  background-color: #cccccc;
+}
+.jumbotron {
+  text-align: center;
+  background-color: black;
+  color: #cccccc;
+}
+#language-picker {
+  text-align: center;
 }
