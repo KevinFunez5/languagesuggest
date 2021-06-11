@@ -7,15 +7,15 @@ $(document).ready(function() {
     const laptopInput = $("input#laptop").val();
 
     let result;
-    if (ageInput === "Yes", "yes", "Y", "y" && laptopInput === "Yes", "yes", "Y", "y" ) {
+    if (ageInput === "Yes" || ageInput === "yes" || ageInput === "Y" || ageInput === "y" && laptopInput === "Yes" && laptopInput === "yes" || laptopInput === "Y" || laptopInput === "y" ) {
       result = "Javascript"
-    } else if (ageInput === "No", "no", "Y", "n" && sportInput === "Yes", "yes", "Y", "y" ) {
+    } else if (ageInput === "Yes" || ageInput === "yes" || ageInput === "Y" || ageInput === "y" && sportInput === "Yes", "yes", "Y", "y" ) {
       result = "Python"  
-    } else if (laptopInput === "Yes", "yes", "Y", "y"  && codeInput === "Yes", "yes", "Y", "y" ) {
+    } else if (laptopInput === "Yes" && laptopInput === "yes" || laptopInput === "Y" || laptopInput === "y"  &&  codeInput === "Yes" || codeInput === "yes" || codeInput === "Y" || codeInput === "y" ) {
       result = "C#" 
-    } else if (mathInput === "No", "no", "Y", "n" && ageInput === "Yes", "yes", "Y", "y" ) {
+    } else if (mathInput === "No" || mathInput === "no" || mathInput === "N"  || mathInput === "n" && ageInput === "Yes" || ageInput === "yes" || ageInput === "Y" || ageInput === "y" ) {
       result = "Ruby"
-    } else if (sportInput === "No", "no", "Y", "n" && laptopInput === "No", "no", "Y", "n") {
+    } else if (sportInput === "No" || sportInput === "no" || sportInput === "N" || sportInput === "n" && laptopInput === "Yes" && laptopInput === "yes" || laptopInput === "Y" || laptopInput === "y") {
       result = "Go"
     } else {
       result = "YOU'RE TOO SMART FIGURE IT OUT!"
