@@ -1,10 +1,11 @@
 $(document).ready(function() {
   $("#language-picker").submit(function(event) {
-    const ageInput = $("input#age").val();
-    const sportInput = $("input#sport").val();
-    const mathInput = $("input#math").val();
-    const codeInput = $("input#code").val();
-    const laptopInput = $("input#laptop").val();
+    const ageInput = $('input[name="age"]:checked').val();
+    const sportInput = $('input[name="sport"]:checked').val();
+    const mathInput = $('input[name="math"]:checked').val();
+    const codeInput = $('input[name="code"]:checked').val();
+    const laptopInput = $('input[name="laptop"]:checked').val();
+    // $('input[name="name_of_your_radiobutton"]:checked').val();
 
     let result;
     if (ageInput == "Yes" && laptopInput == "Yes") {

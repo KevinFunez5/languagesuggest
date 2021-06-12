@@ -14,41 +14,42 @@
     <h2>Fill out this application to see what best suits you!</h2>
   </div>
   <form id="language-picker">
-
-
-    <p>Are you younger than 50?</p>
-    <input type="radio" id="age" name="age" value="Yes">
-    <label for="Yes">Yes</label><br>
-    <input type="radio" id="age" name="age" value="No">
-    <label for="No">No</label><br>
-
-    <p>Do you play any sports</p>
-    <input type="radio" id="sport" name="sport" value="Yes">
-    <label for="Yes">Yes</label><br>
-    <input type="radio" id="sport" name="sport" value="No">
-    <label for="No">No</label><br>
-
-    <p>Is math your favorite subject?</p>
-    <input type="radio" id="math" name="math" value="Yes">
-    <label for="Yes">Yes</label><br>
-    <input type="radio" id="math" name="math" value="No">
-    <label for="No">No</label><br>
-
-    <p>Have you done any coding before?</p>
-    <input type="radio" id="code" name="code" value="Yes">
-    <label for="Yes">Yes</label><br>
-    <input type="radio" id="code" name="code" value="No">
-    <label for="No">No</label><br>
-
-    <p>Do you have a laptop?</p>
-    <input type="radio" id="laptop" name="laptop" value="Yes">
-    <label for="Yes">Yes</label><br>
-    <input type="radio" id="laptop" name="laptop" value="No">
-    <label for="No">No</label><br>
-
-    <br>
-
-  <button type="submit" class="btn btn-outline-dark">Submit!</button>
+    <fieldset id="age">
+      <p>Are you younger than 50?</p>
+      <input type="radio" name="age" value="Yes">
+      <label for="Yes">Yes</label><br>
+      <input type="radio" name="age" value="No">
+      <label for="No">No</label><br>
+    </fieldset>
+    <fieldset id="sport">
+      <p>Do you play any sports</p>
+      <input type="radio" name="sport" value="Yes">
+      <label for="Yes">Yes</label><br>
+      <input type="radio" name="sport" value="No">
+      <label for="No">No</label><br>
+    </fieldset>
+    <fieldset id="math">
+      <p>Is math your favorite subject?</p>
+      <input type="radio" name="math" value="Yes">
+      <label for="Yes">Yes</label><br>
+      <input type="radio" name="math" value="No">
+      <label for="No">No</label><br>
+    </fieldset>
+    <fieldset id="code">
+      <p>Have you done any coding before?</p>
+      <input type="radio" name="code" value="Yes">
+      <label for="Yes">Yes</label><br>
+      <input type="radio" name="code" value="No">
+      <label for="No">No</label><br>
+    </fieldset>
+    <fieldset id="laptop">
+      <p>Do you have a laptop?</p>
+      <input type="radio" name="laptop" value="Yes">
+      <label for="Yes">Yes</label><br>
+      <input type="radio" name="laptop" value="No">
+      <label for="No">No</label><br>
+    </fieldset>
+    <button type="submit" class="btn btn-outline-dark">Submit!</button>
   </form>
   <div id="suggestion">
     <p>The language we suggest is <span id="answer"></span></p>
