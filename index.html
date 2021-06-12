@@ -14,22 +14,41 @@
     <h2>Fill out this application to see what best suits you!</h2>
   </div>
   <form id="language-picker">
-    <label for="age">Are you younger than 50? (Yes/No):</label>
-    <input id="age" type="text">
-    
-    <label for="sport">Do you play sports?(Yes/No):</label>
-    <input id="sport" type="text">
-    
-    <label for="math">Do you like math?(Yes/No):</label>
-    <input id="math" type="text">
 
-    <label for="code">Have you coded before?(Yes/No):</label>
-    <input id="code" type="text">
 
-    <label for="laptop">Do you have a laptop?(Yes/No):</label>
-    <input id="laptop" type="text">
-  
-    <button type="submit" class="btn btn-outline-dark">Submit!</button>
+    <p>Are you younger than 50?</p>
+    <input type="radio" id="age" name="Age" value="Yes">
+    <label for="Yes">Yes</label><br>
+    <input type="radio" id="age" name="Age" value="No">
+    <label for="No">No</label><br>
+
+    <p>Do you play any sports</p>
+    <input type="radio" id="sport" name="sport" value="Yes">
+    <label for="Yes">Yes</label><br>
+    <input type="radio" id="sport" name="sport" value="No">
+    <label for="No">No</label><br>
+
+    <p>Is math your favorite subject?</p>
+    <input type="radio" id="math" name="math" value="Yes">
+    <label for="Yes">Yes</label><br>
+    <input type="radio" id="math" name="math" value="No">
+    <label for="No">No</label><br>
+
+    <p>Have you done any coding before?</p>
+    <input type="radio" id="code" name="code" value="Yes">
+    <label for="Yes">Yes</label><br>
+    <input type="radio" id="code" name="code" value="No">
+    <label for="No">No</label><br>
+
+    <p>Do you have a laptop?</p>
+    <input type="radio" id="laptop" name="laptop" value="Yes">
+    <label for="Yes">Yes</label><br>
+    <input type="radio" id="laptop" name="laptop" value="No">
+    <label for="No">No</label><br>
+
+    <br>
+
+  <button type="submit" class="btn btn-outline-dark">Submit!</button>
   </form>
   <div id="suggestion">
     <p>The language we suggest is <span id="answer"></span></p>
