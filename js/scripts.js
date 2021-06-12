@@ -1,10 +1,10 @@
 $(document).ready(function() {
   $("#language-picker").submit(function(event) {
-    const ageInput = $("#age").val();
-    const sportInput = $("#sport").val();
-    const mathInput = $("#math").val();
-    const codeInput = $("#code").val();
-    const laptopInput = $("#laptop").val();
+    const ageInput = $("input#age").val();
+    const sportInput = $("input#sport").val();
+    const mathInput = $("input#math").val();
+    const codeInput = $("input#code").val();
+    const laptopInput = $("input#laptop").val();
 
     let result;
     if (ageInput == "Yes" && laptopInput == "Yes") {
